@@ -5,12 +5,12 @@
         <b>Deno module that tells you if a value is a boolean</b>
     </p>
     <p>
-        <img alt="build status" src="https://img.shields.io/github/workflow/status/KhushrajSandbox/isBoolean/Deno?label=checks" >
-        <img alt="language" src="https://img.shields.io/github/languages/top/KhushrajSandbox/isBoolean" >
-        <img alt="code size" src="https://img.shields.io/github/languages/code-size/KhushrajSandbox/isBoolean">
-        <img alt="issues" src="https://img.shields.io/github/issues/KhushrajSandbox/isBoolean" >
-        <img alt="license" src="https://img.shields.io/github/license/KhushrajSandbox/isBoolean">
-        <img alt="version" src="https://img.shields.io/github/v/release/KhushrajSandbox/isBoolean">
+        <img alt="build status" src="https://img.shields.io/github/workflow/status/ImportantDenoModules/isBoolean/Deno?label=checks" >
+        <img alt="language" src="https://img.shields.io/github/languages/top/ImportantDenoModules/isBoolean" >
+        <img alt="code size" src="https://img.shields.io/github/languages/code-size/ImportantDenoModules/isBoolean">
+        <img alt="issues" src="https://img.shields.io/github/issues/ImportantDenoModules/isBoolean" >
+        <img alt="license" src="https://img.shields.io/github/license/ImportantDenoModules/isBoolean">
+        <img alt="version" src="https://img.shields.io/github/v/release/ImportantDenoModules/isBoolean">
     </p>
     <p>
         <b><a href="https://deno.land/x/is_boolean">View on deno.land</a></b>
@@ -23,7 +23,7 @@
 ## Usage
 
 ```ts
-import isBoolean from "https://deno.land/x/is_boolean@1.0.1/mod.ts"
+import isBoolean from "https://deno.land/x/is_boolean@1.0.2/mod.ts"
 
 console.log(isBoolean(true))
 console.log(isBoolean(false))
@@ -34,9 +34,9 @@ console.log(isBoolean("Hello"))
 
 ## Supporters
 
-[![Stargazers repo roster for @KhushrajSandbox/isBoolean](https://reporoster.com/stars/KhushrajSandbox/isBoolean)](https://github.com/KhushrajSandbox/isBoolean/stargazers)
+[![Stargazers repo roster for @ImportantDenoModules/isBoolean](https://reporoster.com/stars/ImportantDenoModules/isBoolean)](https://github.com/ImportantDenoModules/isBoolean/stargazers)
 
-[![Forkers repo roster for @KhushrajSandbox/isBoolean](https://reporoster.com/forks/KhushrajSandbox/isBoolean)](https://github.com/KhushrajSandbox/isBoolean/network/members)
+[![Forkers repo roster for @ImportantDenoModules/isBoolean](https://reporoster.com/forks/ImportantDenoModules/isBoolean)](https://github.com/ImportantDenoModules/isBoolean/network/members)
 
 ## Related
 
