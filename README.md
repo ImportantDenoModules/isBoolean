@@ -1,19 +1,19 @@
 <div align="center">
-    <img src="assets/logo.svg" width="400" height="400" alt="blueprint illustration">
-    <h1>Blueprint</h1>
+    <img src="assets/logo.svg" width="400" height="400" alt="quesiton mark">
+    <h1>isBoolean</h1>
     <p>
-        <b>Starter for Deno Modules</b>
+        <b>Deno module that tells you if a value is a boolean</b>
     </p>
     <p>
-        <img alt="build status" src="https://img.shields.io/github/workflow/status/KhushrajRathod/Blueprint/Deno?label=checks" >
-        <img alt="language" src="https://img.shields.io/github/languages/top/KhushrajRathod/Blueprint" >
-        <img alt="code size" src="https://img.shields.io/github/languages/code-size/KhushrajRathod/Blueprint">
-        <img alt="issues" src="https://img.shields.io/github/issues/KhushrajRathod/Blueprint" >
-        <img alt="license" src="https://img.shields.io/github/license/KhushrajRathod/Blueprint">
-        <img alt="version" src="https://img.shields.io/github/v/release/KhushrajRathod/Blueprint">
+        <img alt="build status" src="https://img.shields.io/github/workflow/status/KhushrajSandbox/isBoolean/Deno?label=checks" >
+        <img alt="language" src="https://img.shields.io/github/languages/top/KhushrajSandbox/isBoolean" >
+        <img alt="code size" src="https://img.shields.io/github/languages/code-size/KhushrajSandbox/isBoolean">
+        <img alt="issues" src="https://img.shields.io/github/issues/KhushrajSandbox/isBoolean" >
+        <img alt="license" src="https://img.shields.io/github/license/KhushrajSandbox/isBoolean">
+        <img alt="version" src="https://img.shields.io/github/v/release/KhushrajSandbox/isBoolean">
     </p>
     <p>
-        <b><a href="https://deno.land/x/blueprint">View on deno.land</a></b>
+        <b><a href="https://deno.land/x/is_boolean">View on deno.land</a></b>
     </p>
     <br>
     <br>
@@ -23,14 +23,20 @@
 ## Usage
 
 ```ts
-import {} from 'https://deno.land/x/blueprint@1.0.0/mod.ts
+import isBoolean from "https://deno.land/x/is_boolean@1.0.1/mod.ts"
+
+console.log(isBoolean(true))
+console.log(isBoolean(false))
+console.log(isBoolean(new Boolean("hi")))
+console.log(isBoolean(23))
+console.log(isBoolean("Hello"))
 ```
 
 ## Supporters
 
-[![Stargazers repo roster for @KhushrajRathod/Blueprint](https://reporoster.com/stars/KhushrajRathod/Blueprint)](https://github.com/KhushrajRathod/Blueprint/stargazers)
+[![Stargazers repo roster for @KhushrajSandbox/isBoolean](https://reporoster.com/stars/KhushrajSandbox/isBoolean)](https://github.com/KhushrajSandbox/isBoolean/stargazers)
 
-[![Forkers repo roster for @KhushrajRathod/Blueprint](https://reporoster.com/forks/KhushrajRathod/Blueprint)](https://github.com/KhushrajRathod/Blueprint/network/members)
+[![Forkers repo roster for @KhushrajSandbox/isBoolean](https://reporoster.com/forks/KhushrajSandbox/isBoolean)](https://github.com/KhushrajSandbox/isBoolean/network/members)
 
 ## Related
 
